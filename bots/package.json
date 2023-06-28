@@ -4,6 +4,7 @@
   "description": "Bots for Public Discord",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon crowd_sort.js --save-dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/TannerTorrey3/aztec-quantum/issues"
   },
-  "homepage": "https://github.com/TannerTorrey3/aztec-quantum#readme"
+  "homepage": "https://github.com/TannerTorrey3/aztec-quantum#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "nodemon": "^2.0.22"
+  }
 }
